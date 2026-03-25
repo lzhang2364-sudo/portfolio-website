@@ -120,10 +120,21 @@ nav a.active::after {
     font-weight: bold;
 }
 
+.hero-subtitle-container {
+    margin-bottom: var(--spacing-2xl);
+}
+
 .hero-subtitle {
     font-size: var(--font-lg);
     color: #666;
     margin-bottom: 8px;  /* ← 减小下方间距 */
+    line-height: 1.4;
+}
+
+.hero-subtitle {
+    font-size: var(--font-lg);
+    color: #666;
+    margin-bottom: 8px;  /* ← 减小与上方文字的间距 */
     line-height: 1.4;
 }
 
