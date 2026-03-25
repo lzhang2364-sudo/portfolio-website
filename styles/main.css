@@ -254,85 +254,13 @@ nav a.active::after {
     margin-bottom: 12px;
 }
 
-.about-right {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.id-card {
+.about-image {
     width: 100%;
-    max-width: 320px;
-    background: linear-gradient(135deg, var(--primary-green) 0%, #5AB86B 100%);
-    border-radius: var(--radius-xl);
-    border: var(--border-thick) solid var(--black);
-    padding: 30px;
-    color: white;
-    box-shadow: var(--shadow-xl);
-    position: relative;
-    overflow: hidden;
-}
-
-.id-card::before {
-    content: '';
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 50%;
-    top: -50px;
-    right: -50px;
-}
-
-.id-card-header {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: var(--font-sm);
-    font-weight: 600;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-    padding-bottom: 10px;
-}
-
-.id-card-title {
-    text-align: center;
-    font-size: var(--font-2xl);
-    margin-bottom: 20px;
-}
-
-.id-card-item {
-    background: rgba(255, 255, 255, 0.3);
-    padding: 12px 15px;
-    border-radius: var(--radius-lg);
-    margin-bottom: 12px;
-    font-size: var(--font-sm);
-    border: var(--border-thin) solid rgba(255, 255, 255, 0.5);
-}
-
-.id-card-item label {
+    max-width: 400px;
+    height: auto;
+    border-radius: var(--radius-2xl);
+    box-shadow: var(--shadow-lg);
     display: block;
-    font-size: 11px;
-    opacity: 0.9;
-    margin-bottom: 3px;
-    font-weight: 600;
-}
-
-.id-card-item span {
-    display: block;
-    font-weight: 600;
-}
-
-.id-card-avatar {
-    width: 80px;
-    height: 80px;
-    background: var(--primary-pink);
-    border-radius: 50%;
-    margin: 0 auto 15px;
-    border: 3px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 40px;
 }
 
 /* ==================== Skills Section ==================== */
