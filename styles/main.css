@@ -89,7 +89,7 @@ nav a.active::after {
     font-size: var(--font-6xl);
     line-height: 1.1;
     margin-bottom: var(--spacing-2xl);
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     align-items: center;
     gap: var(--spacing-lg);
