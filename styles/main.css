@@ -85,6 +85,12 @@ nav a.active::after {
     animation: fadeInUp 0.8s ease;
 }
 
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    animation: fadeInRight 0.8s ease;
+}
 .hero-title {
     font-size: var(--font-6xl);
     line-height: 1.1;
@@ -188,13 +194,6 @@ nav a.active::after {
 
 .btn-secondary::before {
     content: '→';
-}
-
-.hero-right {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    animation: fadeInRight 0.8s ease;
 }
 
 .illustration-box {
