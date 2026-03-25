@@ -93,7 +93,7 @@ nav a.active::after {
     flex-wrap: wrap;
     align-items: center;
     gap: var(--spacing-lg);
-    font-size: 80px;  /* ← 增大字号 */
+    font-size: 70px;  /* ← 增大字号 */
 }
 
 /* 修改粉色高亮块（「此人绝非扇贝」�� */
@@ -233,9 +233,10 @@ nav a.active::after {
 }
 
 .about-title {
-    font-size: var(--font-3xl);
+    font-size: 36px;
     margin-bottom: var(--spacing-2xl);
     color: var(--black);
+    font-weight: bold;
 }
 
 .about-title-highlight {
@@ -247,10 +248,10 @@ nav a.active::after {
 }
 
 .about-content {
-    font-size: var(--font-base);
+    font-size: 18px;
     color: #555;
     line-height: 1.9;
-    margin-bottom: var(--spacing-2xl);
+    margin-bottom: 12px;
 }
 
 .about-right {
