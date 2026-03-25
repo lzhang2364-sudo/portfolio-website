@@ -83,10 +83,11 @@ nav a.active::after {
 .hero-left {
     flex: 1;
     animation: fadeInUp 0.8s ease;
+    min-width: 0;  /* ← 添加这行 */
 }
 
 .hero-right {
-    flex: 1;
+    flex:0 0 auto;  /* ← 改为这个 */
     display: flex;
     justify-content: center;
     animation: fadeInRight 0.8s ease;
@@ -137,10 +138,10 @@ nav a.active::after {
     line-height: 1.4;
 }
 
-.hero-subtitle {
+.hero-subtitle-extra {
     font-size: var(--font-lg);
     color: #666;
-    margin-bottom: 8px;  /* ← 减小与上方文字的间距 */
+    margin: 0;
     line-height: 1.4;
 }
 
