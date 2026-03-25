@@ -1,0 +1,59 @@
+/* ==================== CSS Variables ==================== */
+:root {
+    /* Colors */
+    --primary-pink: #FF6B9D;
+    --primary-blue: #4169E1;
+    --primary-yellow: #FFD93D;
+    --primary-green: #6BCB77;
+    --light-gray: #F5F5F5;
+    --dark-gray: #333333;
+    --black: #000000;
+    --white: #FFFFFF;
+
+    /* Spacing */
+    --spacing-xs: 8px;
+    --spacing-sm: 12px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-2xl: 48px;
+    --spacing-3xl: 60px;
+    --spacing-4xl: 80px;
+
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 15px;
+    --radius-lg: 20px;
+    --radius-xl: 25px;
+    --radius-2xl: 30px;
+    --radius-full: 50px;
+
+    /* Border Width */
+    --border-thin: 2px;
+    --border-medium: 3px;
+    --border-thick: 4px;
+    --border-extra-thick: 5px;
+
+    /* Font Sizes */
+    --font-xs: 12px;
+    --font-sm: 14px;
+    --font-base: 16px;
+    --font-lg: 18px;
+    --font-xl: 22px;
+    --font-2xl: 28px;
+    --font-3xl: 32px;
+    --font-4xl: 42px;
+    --font-5xl: 48px;
+    --font-6xl: 52px;
+
+    /* Shadows */
+    --shadow-sm: 0 4px 20px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 8px 20px rgba(65, 105, 225, 0.3);
+    --shadow-lg: 0 15px 40px rgba(0, 0, 0, 0.15);
+    --shadow-xl: 0 15px 40px rgba(0, 0, 0, 0.2);
+
+    /* Transitions */
+    --transition-fast: 0.2s ease;
+    --transition-base: 0.3s ease;
+    --transition-slow: 0.5s ease;
+}
