@@ -93,17 +93,22 @@ nav a.active::after {
     flex-wrap: wrap;
     align-items: center;
     gap: var(--spacing-lg);
+    font-size: 80px;  /* ← 增大字号 */
 }
 
+/* 修改粉色高亮块（「此人绝非扇贝」�� */
 .hero-title .highlight-pink {
     background: var(--primary-pink);
-    color: white;
+    color: black;  /* ← 改为黑色 */
     padding: 8px 20px;
     border-radius: var(--radius-lg);
     border: var(--border-medium) solid var(--black);
     display: inline-block;
+    transform: skewX(-15deg);  /* ← 向左倾斜 */
+    font-weight: bold;
 }
 
+/* 修改蓝色高亮块（「不追求诺贝尔奖」） */
 .hero-title .highlight-blue {
     background: var(--primary-blue);
     color: white;
@@ -111,6 +116,8 @@ nav a.active::after {
     border-radius: var(--radius-lg);
     border: var(--border-medium) solid var(--black);
     display: inline-block;
+    transform: skewX(-15deg);  /* ← 向左倾斜 */
+    font-weight: bold;
 }
 
 .hero-subtitle {
