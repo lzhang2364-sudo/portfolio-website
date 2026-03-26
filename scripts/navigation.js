@@ -53,5 +53,5 @@ window.addEventListener('scroll', () => {
 
 // ==================== Contact Button ====================
 document.querySelector('.nav-contact').addEventListener('click', function() {
-    alert('感谢您的关注！\n\n📧 联系邮箱: hello@lulab.com\n💬 微信: lu_lab\n🔗 小红书: @lu的实验室');
+    alert('感谢您的关注！\n\n📧 联系邮箱: 15934835073@163.com\n💬 微信: Pepper0008\n🔗 小红书: @lu的实验室');
 });
